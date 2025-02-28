@@ -8,12 +8,12 @@ export default function About() {
       id="about"
       className={`w-full py-8 md:py-8 lg:py-8 bg-slate-900 ${
         location.pathname === "/about" && "h-[90vh] "
-        }`}
-      
+      }`}
     >
       <div
-               
-        className={` px-4 md:px-6 ${location.pathname === "/about" && "pt-24"}`}
+        className={` px-4 md:px-14 ${
+          location.pathname === "/about" && "pt-24"
+        }`}
       >
         <h1 className=" text-5xl font-bold mt-2 bg-gradient-to-l from-orange-600 to-amber-500 text-transparent bg-clip-text w-fit">
           About Me

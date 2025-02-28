@@ -21,7 +21,7 @@ export default function Skills() {
         }`}
       >
         <div
-          className={` px-4 md:px-6 ${
+          className={` px-4 md:px-14 ${
             location.pathname === "/skills" && "pt-24"
           }`}
         >

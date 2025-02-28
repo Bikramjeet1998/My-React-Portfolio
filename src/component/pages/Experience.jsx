@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function Experience() {
   return (
@@ -7,7 +7,7 @@ export default function Experience() {
         id="experience"
         className=" w-full py-8 md:py-8 lg:py-8  text-white bg-slate-900"
       >
-        <div className="  container px-4 md:px-6 ">
+        <div className="  container px-4 md:px-14 ">
           <h2 className="text-3xl font-bold  sm:text-5xl bg-gradient-to-l from-orange-600 to-amber-500 text-transparent bg-clip-text w-fit">
             Work Experience
           </h2>

@@ -10,7 +10,7 @@ export default function Projects() {
         }`}
       >
         <div
-          className={` px-4 md:px-6 ${
+          className={` px-4 md:px-14 ${
             location.pathname === "/project" && "pt-24"
           }`}
         >
